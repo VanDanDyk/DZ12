@@ -17,12 +17,12 @@
       "discount": false
     },
     {
-      "id": 3,
+      "id": "3",
       "urlimg": "123",
       "name": "Тостер",
       "cost": "20",
       "quantity": "20",
-      "discount": "true"
+      "discount": false
     }
   ],
   "CurrentTime": [

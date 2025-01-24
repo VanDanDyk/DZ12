@@ -35,6 +35,7 @@ export default async function timer(){
      products.forEach(async element => await patchDataFunction('http://localhost:3000/PRODUCTS', element.id, `"discount":${false}`));
      if(document.querySelector(".productDiscountCost") != undefined){
       document.querySelectorAll(".productDiscountCost").forEach(element => element.style.display = "none")
+      document.querySelectorAll(".productCost").forEach(element => element.style.textDecoration = "none")
      }
     }  
    },2000);  

@@ -76,11 +76,15 @@ html, body {
 .productQuantity{
   font-size: 15px;
   position: absolute;
-  margin: 4.5% 0 0 30%;
+  margin: 0 0 0 25%;
   color: white;
 
 }
 
 .timer{
   font-size: 30px;
+}
+
+.productCost{
+  text-decoration: line-through;
 }

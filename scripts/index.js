@@ -20,13 +20,13 @@ getbutton.addEventListener("click",async () => {
         if(product.discount){
         list.insertAdjacentHTML(
             `beforeend`,
-            `<li class="listElement"><img src="${product.url}"><span class="productName">${product.name}</span> <span class="productCost"><s>${product.cost}$</s></span> <span class="productDiscountCost">${Number(product.cost)*0.75}$</span><span class="productQuantity">Количество: ${product.quantity}</span></li>`
+            `<li class="listElement"><img src="${product.url}"><span class="productName">${product.name}</span> <span class="productCost">${product.cost}$</span> <span class="productDiscountCost">${Number(product.cost)*0.75}$</span><span class="productQuantity">Количество: ${product.quantity}</span></li>`
         )
     }
     else{
         list.insertAdjacentHTML(
             `beforeend`,
-            `<li class="listElement"><img src="${product.url}"><span class="productName">${product.name}</span> <span class="productCost">${product.cost}$</span><span class="productQuantity">Количество: ${product.quantity}</span></li>`
+            `<li class="listElement"><img src="${product.url}"><span class="productName">${product.name}</span> <span class="productEndCost">${product.cost}$</span><span class="productQuantity">Количество: ${product.quantity}</span></li>`
         )
     }
     })
