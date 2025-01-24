@@ -1,0 +1,35 @@
+{
+  "PRODUCTS": [
+    {
+      "id": "1",
+      "urlimg": "",
+      "name": "i",
+      "cost": 35,
+      "quantity": 0,
+      "discount": false
+    },
+    {
+      "id": "2",
+      "urlimg": "",
+      "name": "2Хуя",
+      "cost": "5",
+      "quantity": "1",
+      "discount": false
+    },
+    {
+      "id": 3,
+      "urlimg": "123",
+      "name": "Тостер",
+      "cost": "20",
+      "quantity": "20",
+      "discount": "true"
+    }
+  ],
+  "CurrentTime": [
+    {
+      "id": "1",
+      "Minutes": 0,
+      "Seconds": 0
+    }
+  ]
+}
